@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
+
+<head>
     <!-- Meta tags -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -12,62 +13,200 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
     <!-- navbar -->
     <nav class="navbar">
-      <div class="navbar__content max-width mb-0">
-        <a href="/">
-            <div class="logo">
-              <img src="assets/images/logo.svg" alt="Nath Alves" />
+        <div class="navbar__content max-width mb-0">
+            <a href="/">
+                <div class="logo">
+                    <img src="assets/images/logo.svg" alt="Nath Alves" />
+                </div>
+            </a>
+            <ul class="navbar__links">
+                <li><a href="#header">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#footer">Contato</a></li>
+            </ul>
+            <div class="navbar__mobile">
+                <img src="assets/icons/menu.svg" alt="menu" class="burguer" />
+                <ul class="mobile__links">
+                    <li><a href="#header">Início</a></li>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#skills">Habilidades</a></li>
+                    <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#footer">Contato</a></li>
+                </ul>
             </div>
-          </a>
-        <ul class="navbar__links">
-          <li><a href="#header">Início</a></li>
-          <li><a href="#about">Sobre</a></li>
-          <li><a href="#skills">Habilidades</a></li>
-          <li><a href="#projects">Projetos</a></li>
-          <li><a href="#footer">Contato</a></li>
-        </ul>
-        <div class="navbar__mobile">
-          <img src="assets/icons/menu.svg" alt="menu" class="burguer" />
-          <ul class="mobile__links">
-            <li><a href="#header">Início</a></li>
-            <li><a href="#about">Sobre</a></li>
-            <li><a href="#skills">Habilidades</a></li>
-            <li><a href="#projects">Projetos</a></li>
-            <li><a href="#footer">Contato</a></li>
-          </ul>
         </div>
-      </div>
     </nav>
 
     <!-- header -->
     <header id="header" class="max-width">
         <div class="header__left">
             <div class="header__image">
-                <img src="assets/images/Foto-pessoal.png" alt="Foto Nathália Alves" class="nath">    
+                <img src="assets/images/Foto-pessoal.png" alt="Foto Nathália Alves" class="nath">
             </div>
 
         </div>
         <div class="header__right">
             <h1>Olá, mundo! Sou Nathália Alves, Desenvolvedora FullStack</h1>
             <p>
-                Formada em Letras e pós-graduada em Teoria da Literatura e Produção Textual, minha jornada acadêmica ganhou um novo rumo com o curso de Análise e Desenvolvimento de Sistemas,
-                despertando em mim o fascínio pela tecnologia. Atualmente, como Estagiária de Desenvolvimento de Software na Sankhya, mergulho no universo da programação, unindo minha habilidade
+                Formada em Letras e pós-graduada em Teoria da Literatura e Produção Textual, minha jornada acadêmica
+                ganhou um novo rumo com o curso de Análise e Desenvolvimento de Sistemas,
+                despertando em mim o fascínio pela tecnologia. Atualmente, como Estagiária de Desenvolvimento de
+                Software na Sankhya, mergulho no universo da programação, unindo minha habilidade
                 em comunicação com a criação de soluções inovadoras.
             </p>
             <a href="#about" class="btn-primary">Saiba mais</a>
         </div>
     </header>
 
+    <!-- Sobre -->
+    <section id="about" class="about max-width">
+        <div class="about__left">
+            <h2 class="secondary-title">Além do código: quem sou eu?</h2>
+            <p>
+                Conecte-se comigo nas redes sociais abaixo para saber mais sobre meu trabalho.
+            </p>
+            <ul>
+                <li>
+                    <a href="#"><img src="assets/icons/linkedIn.svg" alt="Linkedin" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/icons/github.svg" alt="GitHub" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/icons/instagram.svg" alt="Instagram" /></a>
+                </li>
+            </ul>
+        </div>
+        <div class="about__right">
+            <h3 class="tertiary-title mb-m">
+                Desenvolvedora fullstack apaixonada por tecnologia e soluções criativas.
+            </h3>
+            <p>
+                Sou uma profissional apaixonada pela palavra escrita e pela arte de ensinar, com experiência como
+                ex-professora de português e literatura.
+                Contudo, meu entusiasmo pela tecnologia e a busca por desafios me levaram a fazer uma corajosa transição
+                de carreira para o mundo da programação.
+            </p>
+            <p>
+                Atualmente, sou uma desenvolvedora full stack, combinando minha habilidade de comunicação com a criação
+                de soluções inovadoras e funcionais.
+                Estou entusiasmada em expandir meu conhecimento nessa nova jornada e ansiosa para enfrentar novos
+                desafios.
+            </p>
+        </div>
+    </section>
 
+    <!-- habilidades -->
+    <section id="skills" class="skills">
+        <div class="skills__content max-width">
+            <h2 class="tertiary-title">Minha caixinha de ferramentas</h2>
+            <p class="description">
+                Descubra as habilidades e ferramentas que domino e que me permitem
+                criar soluções criativas e funcionais para meus clientes.
+            </p>
+            <ul>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/images/notebook.png" alt="Desenvolvimento Web" />
+                    </div>
+                    <h3>Desenvolvimento Web</h3>
+                    <p>
+                        Experiência em desenvolvimento fullstack com foco em tecnologias
+                        modernas.
+                    </p>
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/images/colors.png" alt="Web Design" />
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>
+                        Habilidade em criar layouts modernos e responsivos, com foco na
+                        experiência do usuário.
+                    </p>
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/images/phone.png" alt="UX/UI Design" />
+                    </div>
+                    <h3>UX/UI Design</h3>
+                    <p>
+                        Conhecimentos em design de interface e experiência do usuário
+                        visualmente atraentes e intuitivas.
+                    </p>
+                </li>
+                <li class="skills__item">
+                    <div class="image-container">
+                        <img src="assets/images/files.png" alt="Gerenciamentos de versões" />
+                    </div>
+                    <h3>Gerenciamentos de versões</h3>
+                    <p>
+                        Experiência em ferramentas de gerenciamento de versão para
+                        controle de projetos.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </section>
 
+    <!-- Projetos -->
+    <section id="projects" class="projects max-width">
+        <div class="projects__content">
+            <h2 class="secondary-title">Projetos</h2>
+            <p>
+                Aqui estão alguns dos meus trabalhos mais recentes
+            </p>
+        </div>
+        <ul>
+            <li>
+                <div class="image">
+                    <img src="assets/task-manager.png" alt="Gerenciamento de tarefas" />
+                </div>
+                <div class="projects__info">
+                    <h3 class="tertiary-title">
+                        Portfólio
+                    </h3>
+                    <p>
+                        Portfólio pessoal para apresentar o uso das seguintes tecnologias: HTML, CSS e JavaScript.
+                    </p>
+                    <a href="#">Visualizar</a>
+                </div>
+            </li>
+        </ul>
+    </section>
 
-    <script src="scripts/indexjs"></script>
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="footer__content max-width mb-0">
+            <h2 class="tertiary-title mb-s">Vamos conversar?</h2>
+            <div class="footer__contact mb-m">
+                <span class="mb-m">naathalvs@gmail.com</span>
+            </div>
+            <ul class="mb-l">
+                <li>
+                    <a href="#"><img src="assets/instagram.svg" alt="Instagram" /></a>
+                </li>
+                <li>
+                    <a href="#"><img src="assets/linkedin.svg" alt="Linkedin" /></a>
+                </li>
+
+            </ul>
+            <div class="emoji">
+                <p>Feito com 💖 por Nathália Alves</p>
+                <img src="assets/images/emoji.png" alt="Emoji" />
+            </div>
+        </div>
+    </footer>
+    <!-- script -->
+    <script src="scripts/index.js"></script>
 </body>
+
 </html>
