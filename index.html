@@ -1,14 +1,73 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="pt-BR">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- title -->
     <title>Portfólio // Nathália Alves</title>
-    <link rel="stylesheet" href="css/extends.css">
-    <link rel="preconnect" href="https://fonts.google.com/specimen/Archivo">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/extends.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <div class="navbar__content max-width mb-0">
+        <a href="/">
+            <div class="logo">
+              <img src="assets/images/logo.svg" alt="Nath Alves" />
+            </div>
+          </a>
+        <ul class="navbar__links">
+          <li><a href="#header">Início</a></li>
+          <li><a href="#about">Sobre</a></li>
+          <li><a href="#skills">Habilidades</a></li>
+          <li><a href="#projects">Projetos</a></li>
+          <li><a href="#footer">Contato</a></li>
+        </ul>
+        <div class="navbar__mobile">
+          <img src="assets/icons/menu.svg" alt="menu" class="burguer" />
+          <ul class="mobile__links">
+            <li><a href="#header">Início</a></li>
+            <li><a href="#about">Sobre</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Projetos</a></li>
+            <li><a href="#footer">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
-</head>
-<body>
+    <!-- header -->
+    <header id="header" class="max-width">
+        <div class="header__left">
+            <div class="header__image">
+                <img src="assets/images/Foto-pessoal.png" alt="Foto Nathália Alves" class="nath">    
+            </div>
+
+        </div>
+        <div class="header__right">
+            <h1>Olá, mundo! Sou Nathália Alves, Desenvolvedora FullStack</h1>
+            <p>
+                Formada em Letras e pós-graduada em Teoria da Literatura e Produção Textual, minha jornada acadêmica ganhou um novo rumo com o curso de Análise e Desenvolvimento de Sistemas,
+                despertando em mim o fascínio pela tecnologia. Atualmente, como Estagiária de Desenvolvimento de Software na Sankhya, mergulho no universo da programação, unindo minha habilidade
+                em comunicação com a criação de soluções inovadoras.
+            </p>
+            <a href="#about" class="btn-primary">Saiba mais</a>
+        </div>
+    </header>
+
+
+
+
     <script src="scripts/indexjs"></script>
 </body>
 </html>
