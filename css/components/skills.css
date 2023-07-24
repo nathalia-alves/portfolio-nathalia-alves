@@ -1,6 +1,5 @@
 #s-skills{
     padding:96px 48px;
-    background-color:#111
 }
 @media screen and (max-width: 992px){
     #s-skills{
@@ -23,37 +22,19 @@
         width:100%
     }
 }
-#s-skills .grid-layout #skills #skills-text{
-    min-height:400px
-}
+
 @media screen and (max-width: 768px){
     #s-skills .grid-layout #skills #skills-text{
         min-height:auto
     }
 }
-#s-skills .grid-layout #skills #skills-text h2{
-    margin-bottom:32px;
-    color:#fff;
-    font-size:3.2rem;
-    font-weight:500
-}
-#s-skills .grid-layout #skills #skills-text h2 span{
-    color:#986dff
-}
-#s-skills .grid-layout #skills #skills-text .changeDescription{
-    transition:2s all ease
-}
+
 @media screen and (max-width: 768px){
     #s-skills .grid-layout #skills #skills-text .changeDescription{
         display:none
     }
 }
-#s-skills .grid-layout #skills #skills-text p{
-    max-width:500px;
-    line-height:3.2rem;
-    color:#9ca3af;
-    font-size:1.8rem
-}
+
 #s-skills .grid-layout #skills #skills-cards{
     display:flex;
     flex-wrap:wrap;
@@ -73,15 +54,13 @@
     width:20%;
     flex-grow:1;
     height:130px;
-    background-color:#151515;
+    background-color: var(--secondary-color);
     position:relative;
-    border:1px solid #1f1f1f;
+    border:1px solid var(--secondary-color);
     border-radius:4px;
     transition:1s all ease
 }
-#s-skills .grid-layout #skills #skills-cards article:hover{
-    border:1px solid #986dff
-}
+
 @media screen and (max-width: 768px){
     #s-skills .grid-layout #skills #skills-cards article{
         width:40%
