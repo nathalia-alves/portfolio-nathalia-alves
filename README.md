@@ -1,6 +1,7 @@
 <h1 align="center">
   💻<br>Portfólio - Nathália Alves
 </h1>
+
 ## 📚 Seções
 
 O site é composto por xx seções:
