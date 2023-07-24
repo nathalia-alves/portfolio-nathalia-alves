@@ -4,7 +4,7 @@
 
 ## 📚 Seções
 
-O site é composto por xx seções:
+O site é composto por 5 seções:
 
 - **Sobre mim;**
 - **Habilidades;**
