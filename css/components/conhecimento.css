@@ -1,0 +1,89 @@
+#s-conhecimento{
+    padding:96px 48px;
+    background-color:#111
+}
+@media screen and (max-width: 992px){
+    #s-conhecimento{
+        padding:48px 24px
+    }
+}
+#s-conhecimento .grid-layout #conhecimento{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    height:auto;
+    padding:8px
+}
+#s-conhecimento .grid-layout #conhecimento div,#s-conhecimento .grid-layout #conhecimento article{
+    width:50%
+}
+@media screen and (max-width: 1200px){
+    #s-conhecimento .grid-layout #conhecimento div,#s-conhecimento .grid-layout #conhecimento article{
+        width:100%
+    }
+}
+#s-conhecimento .grid-layout #conhecimento #conhecimento-text{
+    min-height:400px
+}
+@media screen and (max-width: 768px){
+    #s-conhecimento .grid-layout #conhecimento #conhecimento-text{
+        min-height:auto
+    }
+}
+#s-conhecimento .grid-layout #conhecimento #conhecimento-text h2{
+    margin-bottom:32px;
+    color:#fff;
+    font-size:3.2rem;
+    font-weight:500
+}
+#s-conhecimento .grid-layout #conhecimento #conhecimento-text h2 span{
+    color:#986dff
+}
+#s-conhecimento .grid-layout #conhecimento #conhecimento-text .changeDescription{
+    transition:2s all ease
+}
+@media screen and (max-width: 768px){
+    #s-conhecimento .grid-layout #conhecimento #conhecimento-text .changeDescription{
+        display:none
+    }
+}
+#s-conhecimento .grid-layout #conhecimento #conhecimento-text p{
+    max-width:500px;
+    line-height:3.2rem;
+    color:#9ca3af;
+    font-size:1.8rem
+}
+#s-conhecimento .grid-layout #conhecimento #conhecimento-cards{
+    display:flex;
+    flex-wrap:wrap;
+    gap:24px
+}
+@media screen and (max-width: 1200px){
+    #s-conhecimento .grid-layout #conhecimento #conhecimento-cards{
+        margin-top:48px
+    }
+}
+#s-conhecimento .grid-layout #conhecimento #conhecimento-cards article{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    justify-content:center;
+    width:20%;
+    flex-grow:1;
+    height:130px;
+    background-color:#151515;
+    position:relative;
+    border:1px solid #1f1f1f;
+    border-radius:4px;
+    transition:1s all ease
+}
+#s-conhecimento .grid-layout #conhecimento #conhecimento-cards article:hover{
+    border:1px solid #986dff
+}
+@media screen and (max-width: 768px){
+    #s-conhecimento .grid-layout #conhecimento #conhecimento-cards article{
+        width:40%
+    }
+}
