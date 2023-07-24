@@ -8,7 +8,7 @@
 
 ## 📚 Seções
 
-O site é composto por xx seções:
+O site é composto por 5 seções:
 
 - **Sobre mim;**
 - **Habilidades;**
@@ -21,9 +21,9 @@ O site é composto por xx seções:
 ## 💼 Tecnologias utilizadas
 
 Para o desenvolvimento deste site utilizei as seguintes tecnologias:
-- HTML;
-- CSS;
-- JavaScript.
+- **HTML;**
+- **CSS;**
+- **JavaScript.**
 
 
 </table>
