@@ -11,6 +11,8 @@
     padding: 3rem 4rem 1rem;
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
+    font-family: var(--font-family);
   }
 
   .navbar .logo {
@@ -20,6 +22,7 @@
   
   .navbar .navbar__content .navbar__links li {
     display: inline-block;
+    
   }
   
   .navbar .navbar__content .navbar__links li:not(:last-of-type) {
