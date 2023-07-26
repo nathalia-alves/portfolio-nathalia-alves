@@ -1,6 +1,16 @@
 #s-skills{
     padding:96px 48px;
 }
+
+/* CSS para adicionar efeito hover */
+#skills-cards article {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  #skills-cards article:hover {
+    transform: scale(1.1);
+  }
+  
 @media screen and (max-width: 992px){
     #s-skills{
         padding:48px 24px
