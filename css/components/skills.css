@@ -2,7 +2,56 @@
     padding:96px 48px;
 }
 
-/* CSS para adicionar efeito hover */
+/* Adicione este CSS ao seu arquivo de estilos ou diretamente no head do seu HTML */
+#skills-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  #skills-cards article {
+    width: calc(33.33% - 20px); /* Ajuste o tamanho conforme desejado */
+    margin-bottom: 20px;
+    position: relative; /* Adiciona a posição relativa para que os elementos internos possam ser posicionados corretamente */
+  }
+  
+  .icon-container {
+    position: relative; /* Alterado para position: relative para que o .description fique posicionado em relação ao card */
+    width: 60px;
+    height: 60px;
+    display: flex; /* Usamos flexbox para alinhar os elementos verticalmente */
+    align-items: center; /* Alinha os elementos verticalmente ao centro */
+    justify-content: center; /* Alinha os elementos horizontalmente ao centro */
+  }
+  
+  .icon-container img {
+    width: 60px;
+    height: 60px;
+    margin: 0;
+  }
+  
+  .description {
+    display: none;
+    position: absolute;
+    bottom: 5px; /* Move o fundo para a parte inferior do card */
+    left: 50%; /* Posiciona o texto no centro horizontal do card */
+    transform: translateX(-50%); /* Centraliza horizontalmente o texto em relação ao card */
+    width: 100%;
+    color: #E94FA5; /* Cor do texto */
+    font-size: 12px; /* Tamanho da fonte do texto */
+    font-weight: bold; /* Texto em negrito */
+    text-align: center;
+    padding: 8px 0; /* Espaçamento interno do texto */
+    box-sizing: border-box;
+  }
+  
+  /* Estilo do texto quando o mouse passa sobre o elemento */
+  .description.show {
+    display: block;
+  }
+  
+
+
 #skills-cards article {
     transition: transform 0.2s ease-in-out;
   }
@@ -10,7 +59,7 @@
   #skills-cards article:hover {
     transform: scale(1.1);
   }
-  
+
 @media screen and (max-width: 992px){
     #s-skills{
         padding:48px 24px
