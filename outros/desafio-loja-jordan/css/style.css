@@ -55,7 +55,7 @@ header {
 .destaques {
     width: 100%;
     min-height: 500px; 
-    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/assets/img/wallpaper.jpeg');
+    background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/outros/desafio-loja-jordan/assets/img/wallpaper.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
